@@ -11,7 +11,7 @@ main();
 
 app.use(cors());
 
-const port = process.env.PORT;
+const port = 8080;
 
 app.use("/pictures", pictureRouter);
 
