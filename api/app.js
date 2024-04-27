@@ -1,6 +1,5 @@
 import express from "express";
 import { config } from "dotenv";
-import process from "process";
 import main from "./db.js";
 import cors from "cors";
 import pictureRouter from "./routes/picture.js";
